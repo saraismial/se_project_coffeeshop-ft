@@ -131,6 +131,10 @@
   color: #fff;
 }
 
+iframe {
+  border: none;
+}
+
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
@@ -217,7 +221,7 @@
   cursor: pointer;
 }
 
-.form__checkbox_wrapper {
+.form__checkbox-wrapper {
   display: flex;
   gap: 12px;
   justify-content: center;
