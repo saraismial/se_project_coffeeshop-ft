@@ -1,0 +1,67 @@
+.about {
+  background-color: #0A2850;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__header {
+  position: relative;
+}
+
+.about__header-circle {
+  background-color: #1878DC;
+  border-radius: 100%;
+  width: 426px;
+  height: 426px;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  z-index: 1;
+}
+
+.about__header-circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out infinite;
+}
+
+.about__header-title {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #fff;
+  max-width: 251px;
+  padding: 100px 0 0 80px;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+  max-width: 660px;
+  margin: 119px 80px 173px 0;
+}
+
+.about__paragraph {
+  margin: 0;
+  font-family: "Noto Serif";
+  font-size: 20px;
+  line-height: 30px;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
