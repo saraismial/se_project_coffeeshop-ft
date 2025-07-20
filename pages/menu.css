@@ -16,7 +16,7 @@
   text-align: center;
 }
 
-.menu__title__description {
+.menu__description {
   max-width: 780px;
   font-family: "Inter";
   font-size: 20px;
@@ -26,7 +26,7 @@
   text-align: center;
 }
 
-.card__wrapper {
+.menu__wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
