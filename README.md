@@ -91,4 +91,5 @@ The **Triple Peaks Coffee Shop** is a responsive landing page project built as p
 
 ---
 
-Built as part of the **TripleTen Software Engineering Program**.
+## Deployment
+- sarastriplepeakscoffeeshop.netlify.app
